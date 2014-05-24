@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Geolocate | Directions</title>
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+<link href='css/style.css' rel='stylesheet' />
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
+</head>
+<body>
+<div id='map'></div>
+<div class="block">
+	<div class="input-label">Starting Point:</div>
+	<input class="round-it" id="start-input"/><div class="round-it" id="start-search"></div>
+	<div class="results-pane">
+		<div id="search-results"></div>
+		<div id="route-results"></div>
+		<div id="steps"></div>
+	</div>
+
+</div>
+<div class="trigger">
+<div class="stack rotate">
+    directions
+</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script>
+<script src='js/main.js'></script>
+
+</body>
+</html>
