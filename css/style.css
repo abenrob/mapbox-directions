@@ -62,7 +62,7 @@ body {
 }
 /* directions */
 #start-input {
-	width: 264px;
+	width: 260px;
 	height: 20px;
 	margin-top: 4px;
 	font: 12px 'Helvetica Neue',Arial,Helvetica,sans-serif;
@@ -81,7 +81,7 @@ body {
 	padding: 0;
 }
 .results-item, .routes-item, .route-step {
-  padding: 10px 10px;
+  padding: 10px;
 	cursor: pointer;
 }
 .results-item:hover, .routes-item:hover, .route-step.selected {
