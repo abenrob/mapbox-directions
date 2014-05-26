@@ -13,10 +13,13 @@ var directionsResults = [];
 var open = 0;
 $(".trigger" ).click(function() {
     if (open == 0) {
-        $(".block" ).animate({ "right": "+=300px" }, "slow" );
-        $(".trigger" ).animate({ "right": "+=300px" }, "slow" );
+    	//$('#start-input').focus();
+    	$(".trigger" ).animate({ "right": "+=300px" }, "slow" );
+        $(".block" ).animate({ "right": "+=300px" }, "slow", function(){
+        	$('#start-input').focus();
+        });
+        
         open = 1;
-        $('#start-input').focus();
     }
     else if (open == 1) {
         $(".block" ).animate({ "right": "-=300px" }, "slow" );
